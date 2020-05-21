@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
+
+* {
+  font-family: "Lato", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: #3e3e3c;
+}
+body {
+  padding: 0 1.5rem;
+}
+header {
+  display: flex;
+  height: 5rem;
+  justify-content: space-between;
+  padding: 0 1.5rem;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+}
+nav .item {
+  padding: 0 1.5rem !important;
+}
+nav ul a {
+  text-decoration: none;
+}
+.item {
+  flex-wrap: wrap;
+  align-self: center;
+  padding: 4px;
+}
+.contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 80%;
+  margin: auto;
+}
+.position-cont {
+  position: relative;
+}
+.hero-cta {
+  position: absolute;
+  top: 9rem;
+  left: 8rem;
+}
+.hero-cta h1 {
+  font-size: 3em;
+  color: #b49d9e;
+}
+.hero-cta h2 {
+  font-size: 3.375em;
+  font-weight: 900;
+  color: #967c7d;
+  max-width: 25rem;
+  margin-bottom: 3rem;
+}
+.btn {
+  background-color: #3e3e3c;
+  padding: 1rem 3rem;
+  text-decoration: none;
+  color: white;
+  margin-top: 2rem;
+}
+.hero-cta-2 {
+  position: absolute;
+  top: 7rem;
+  left: 31rem;
+}
+.hero-cta-2 h3 {
+  font-size: 2.25em;
+  color: #3e3e3c;
+  max-width: 15rem;
+  margin-bottom: 2rem;
+}
+,
+.hero-cta-2 h4 {
+  font-size: 0.875em;
+  color: #737b7d;
+  margin-bottom: 3rem;
+}
+.btn-trans {
+  font-size: 0.875em;
+  color: #3e3e3c;
+  text-decoration: none;
+}
+.hero-cta-3 {
+  position: absolute;
+  top: 7rem;
+  left: 7rem;
+}
+.hero-cta-3 h3 {
+  font-size: 2.25em;
+  color: #869ca9;
+  max-width: 15rem;
+  margin-bottom: 1rem;
+}
+.hero-cta-3 h4 {
+  font-size: 0.875em;
+  color: #737b7d;
+  margin-bottom: 3rem;
+}
+
+.hashtag-titulo {
+  font-size: 3em;
+  color: rgba(0, 0, 0, 1);
+  text-align: center;
+}
+.articulo {
+  padding-bottom: 2rem;
+}
+#losmasvendidos {
+  margin-top: 8rem;
+}
+#losmasvendidos .contenedor {
+  max-width: 75%;
+  margin: 4rem auto auto auto;
+}
+
+#testimonios {
+  background-image: url(media/testimonios.png);
+  padding: 8rem 16rem;
+  margin-top: 8rem;
+}
+.testimonio {
+  background-color: white;
+  padding: 3rem;
+  margin-top: 3rem;
+  font-weight: 700;
+}
+.persona-testimonio {
+  display: flex;
+  padding: 1rem;
+}
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+.persona-testimonio p {
+  padding-left: 2rem;
+}
+
+.testimonio-puesto {
+  font-weight: 500;
+  margin-top: 0.5rem;
+}
+
+footer {
+  display: flex;
+  height: 10rem;
+  padding: 0;
+  justify-content: space-between;
+  padding: 0 1.5rem;
+}
+footer .item {
+  padding: 0 1rem;
+}
+footer .rss {
+  padding: 0 1rem;
+}
+.right {
+  display: block;
+  float: right;
+}
